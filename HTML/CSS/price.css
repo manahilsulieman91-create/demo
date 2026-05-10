@@ -1,0 +1,223 @@
+.header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-title { 
+    font-size: 3rem; 
+    font-weight: 800; 
+    color: #0b0b0b; 
+    line-height: 1.1; 
+    margin-bottom: 1.5rem;
+    background-color: #06854b;
+}
+
+.description-centered { 
+    color: #0a0a0a; 
+    line-height: 1.6; 
+    max-width: 40rem;
+    margin: 0 auto;
+    background-color: #067845;
+}
+
+.agri-card { 
+    background: #ffffff; 
+    border: 1px solid #e0f2fe; 
+    border-radius: 16px; 
+    padding: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.main-calculator { 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.main-calculator:hover { 
+    box-shadow: 0 10px 20px rgba(135, 206, 235, 0.1); 
+}
+
+.field-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.agri-input { 
+    border: 1.5px solid #e0f2fe; 
+    border-radius: 8px; 
+    padding: 0.625rem; 
+    width: 100%; 
+    outline: none; 
+    background-color: #ffffff;
+}
+
+.agri-input:focus { 
+    border-color: #87ceeb; 
+    box-shadow: 0 0 0 3px rgba(135, 206, 235, 0.2); 
+}
+
+.info-blocks { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+}
+
+.info-card { 
+    display: flex; 
+    align-items: flex-start; 
+    gap: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.75rem; 
+    border: 1px solid transparent; 
+}
+
+.info-card.skyblue { 
+    background-color: #f0f9ff; 
+    border-color: #bae6fd; 
+}
+
+.info-card.white-blue { 
+    background-color: #ffffff; 
+    border-color: #e0f2fe; 
+}
+
+.info-title-blue { 
+    font-weight: 700; 
+    color: #0369a1; 
+    font-size: 0.875rem; 
+}
+
+.info-text-blue { 
+    font-size: 0.75rem; 
+    color: #0c4a6e; 
+}
+
+.form-grid { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
+    margin-bottom: 2rem; 
+}
+
+@media (min-width: 768px) {
+ .form-grid { 
+        grid-template-columns: 1fr 1fr; 
+    } 
+}
+
+.input-group { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5rem; 
+}
+
+.section-title-green { 
+    font-size: 1.125rem; 
+    font-weight: 700; 
+    color: #1b4332; 
+    display: flex; 
+    align-items: center; 
+}
+
+.action-buttons { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+    border-top: 1px solid #e0f2fe; 
+    padding-top: 2rem; 
+}
+
+@media (min-width: 768px) {
+ .action-buttons { 
+        flex-direction: row; 
+    } 
+}
+
+.calc-btn-green { 
+    flex: 1; 
+    background-color: #0d450e;
+    color: #ffffff; 
+    padding: 1rem 2.5rem; 
+    border-radius: 0.75rem; 
+    font-weight: 700; 
+    border: none; 
+    cursor: pointer;
+}
+
+.clear-btn-blue { 
+    background-color: #0d450E; 
+    color: #f7f9fa; 
+    padding: 1rem 2.5rem; 
+    border-radius: 0.75rem; 
+    font-weight: 700; 
+    border: 1.5px solid #bae6fd; 
+    cursor: pointer;
+}
+
+.results-container { 
+    margin-top: 2rem; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+}
+
+@media (min-width: 768px) {
+ .results-container { 
+        grid-template-columns: repeat(3, 1fr); 
+    } 
+}
+
+.res-card-white { 
+    background: #ffffff; 
+    padding: 1.5rem; 
+    border-radius: 1rem; 
+    border: 1px solid #e0f2fe; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.res-card-green { 
+    background: #2d6a4f; 
+    padding: 1.5rem; 
+    border-radius: 1rem; 
+    border: none; 
+}
+
+.res-label { 
+    font-size: 0.75rem; 
+    font-weight: 700; 
+    color: #64748b; 
+    text-transform: uppercase; 
+}
+
+.res-label-white { 
+    font-size: 0.75rem; 
+    font-weight: 700; 
+    color: #f0fdf4; 
+    text-transform: uppercase; 
+    opacity: 0.8;
+}
+
+.res-value-dark { 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    color: #1e293b; 
+    margin-top: 0.25rem; 
+}
+
+.res-value-blue { 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    color: #0369a1; 
+    margin-top: 0.25rem; 
+}
+
+.res-value-white { 
+    font-size: 1.5rem; 
+    font-weight: 800; 
+    color: #ffffff; 
+    margin-top: 0.25rem; 
+}
